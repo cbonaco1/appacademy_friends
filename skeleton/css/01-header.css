@@ -10,6 +10,8 @@ body {
   color: #fff;
   background: #f00;
   border-bottom: 1px solid #ccc;
+  z-index: 1;
+  position: relative;
 }
 
 .header-nav {

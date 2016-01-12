@@ -1,1 +1,26 @@
 /* PHASE 4: Footer */
+.footer {
+  width: 860px;
+  margin: auto;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-top: 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 20px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.copyright {
+  float: left;
+}
+
+.footer-nav {
+  float: right;
+}
+
+.footer-nav li {
+  float: left;
+  padding-left: 20px;
+}
