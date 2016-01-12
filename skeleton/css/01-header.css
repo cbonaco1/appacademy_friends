@@ -3,12 +3,12 @@ body {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
+  background: #eee;
 }
 
 .header {
   color: #fff;
   background: #f00;
-  font-weight: 700;
   border-bottom: 1px solid #ccc;
 }
 
@@ -24,20 +24,26 @@ body {
   padding: 10px 20px;
 }
 
-.header-nav a:hover {
+.header-list > li:hover {
   background: #000;
 }
 
 .header-logo {
   float: left;
+  font-weight: 700;
   border-right: 1px solid #ccc;
+}
+
+.header-logo:hover {
+  background: #000;
 }
 
 .header-list {
   float: right;
+  position: relative;
 }
 
-.header-list li {
+.header-list > li {
   float: left;
   border-left: 1px solid #ccc;
 
