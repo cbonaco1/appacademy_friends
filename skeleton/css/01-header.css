@@ -1,1 +1,47 @@
 /* PHASE 1: Header */
+body {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.header {
+  color: #fff;
+  background: #f00;
+  font-weight: 700;
+  border-bottom: 1px solid #ccc;
+}
+
+.header-nav {
+  width: 900px;
+  margin: auto;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.header-nav a {
+  display: block;
+  padding: 10px 20px;
+}
+
+.header-nav a:hover {
+  background: #000;
+}
+
+.header-logo {
+  float: left;
+  border-right: 1px solid #ccc;
+}
+
+.header-list {
+  float: right;
+}
+
+.header-list li {
+  float: left;
+  border-left: 1px solid #ccc;
+
+  /* Inline elements take minimum height, so padding has no impact
+  display: inline;
+  */
+}

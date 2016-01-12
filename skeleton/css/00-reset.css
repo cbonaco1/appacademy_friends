@@ -13,6 +13,7 @@ span, article, footer, time, small {
   color: inherit;
   text-align: inherit;
   box-sizing: inherit;
+  text-decoration: none;
 
   background: transparent;
 }
